@@ -9,6 +9,8 @@ html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url("http://saxonytourism.com/images/music/bg1.jpg");
+  background-size: 100% 100%;
 }
 
 .keys {
