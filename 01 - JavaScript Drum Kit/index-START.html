@@ -55,13 +55,6 @@
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
 
-    <script>
-      window.addEventListener("keydown", function(x) {
-        const sound = document.querySelector(`audio[data-key="${x.keyCode}"]`);
-        if (!sound) return;
-        sound.currentTime = 0; //rewind it to the start
-        sound.play();
-      });
-    </script>
+    <script src="./action.js"></script>
   </body>
 </html>
